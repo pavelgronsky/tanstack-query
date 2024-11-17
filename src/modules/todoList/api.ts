@@ -1,11 +1,14 @@
-import { TodoDto } from './types';
+import { PaginatedResult, TodoDto } from './types';
 
 const BASE_URL = "http://localhost:3000"
 
 export const todoListApi = {
-  getTodoList: ({ signal }: { signal: AbortSignal }) => {
-    return fetch(`${BASE_URL}/tasks`, {
+  getTodoList: (
+    { page }: { page: number },
+    { signal }: { signal: AbortSignal },
+  ) => {
+    return fetch(`${BASE_URL}/tasks?_page=${page}&_per_page=10`, {
       signal
-    }).then(res => res.json() as Promise<TodoDto[]>);
+    }).then(res => res.json() as Promise<PaginatedResult<TodoDto>>);
   }
 }

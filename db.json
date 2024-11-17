@@ -2,17 +2,502 @@
   "tasks": [
     {
       "id": 1,
-      "text": "Todo 1",
+      "text": "Read a book on personal development",
       "done": false
     },
     {
       "id": 2,
-      "text": "Todo 2",
+      "text": "Take a 30-minute walk in nature",
       "done": false
     },
     {
       "id": 3,
-      "text": "Todo 3",
+      "text": "Write a letter to a future version of yourself",
+      "done": false
+    },
+    {
+      "id": 4,
+      "text": "Try a new recipe for dinner",
+      "done": false
+    },
+    {
+      "id": 5,
+      "text": "Organize your workspace",
+      "done": false
+    },
+    {
+      "id": 6,
+      "text": "Watch a documentary on a topic you're curious about",
+      "done": false
+    },
+    {
+      "id": 7,
+      "text": "Learn 10 words in a new language",
+      "done": false
+    },
+    {
+      "id": 8,
+      "text": "Write down three things you're grateful for",
+      "done": false
+    },
+    {
+      "id": 9,
+      "text": "Call a friend or family member to catch up",
+      "done": false
+    },
+    {
+      "id": 10,
+      "text": "Try a mindfulness meditation session",
+      "done": false
+    },
+    {
+      "id": 11,
+      "text": "Declutter one drawer in your home",
+      "done": false
+    },
+    {
+      "id": 12,
+      "text": "Research a place you'd like to visit someday",
+      "done": false
+    },
+    {
+      "id": 13,
+      "text": "Plant a flower or a small herb garden",
+      "done": false
+    },
+    {
+      "id": 14,
+      "text": "Create a playlist of your favorite songs",
+      "done": false
+    },
+    {
+      "id": 15,
+      "text": "Draw or sketch something from your imagination",
+      "done": false
+    },
+    {
+      "id": 16,
+      "text": "Write a short story or a poem",
+      "done": false
+    },
+    {
+      "id": 17,
+      "text": "Plan a day trip to a local attraction",
+      "done": false
+    },
+    {
+      "id": 18,
+      "text": "Learn a simple yoga routine",
+      "done": false
+    },
+    {
+      "id": 19,
+      "text": "Watch a classic movie you've never seen before",
+      "done": false
+    },
+    {
+      "id": 20,
+      "text": "Start a journal and write your thoughts",
+      "done": false
+    },
+    {
+      "id": 21,
+      "text": "Try a random act of kindness",
+      "done": false
+    },
+    {
+      "id": 22,
+      "text": "Listen to a podcast on a topic that interests you",
+      "done": false
+    },
+    {
+      "id": 23,
+      "text": "Rearrange the furniture in one room for a fresh look",
+      "done": false
+    },
+    {
+      "id": 24,
+      "text": "Write a thank-you note to someone you appreciate",
+      "done": false
+    },
+    {
+      "id": 25,
+      "text": "Cook a meal from a different cuisine",
+      "done": false
+    },
+    {
+      "id": 26,
+      "text": "Practice a new skill for 30 minutes",
+      "done": false
+    },
+    {
+      "id": 27,
+      "text": "Read a chapter of a book before bed",
+      "done": false
+    },
+    {
+      "id": 28,
+      "text": "Go for a bike ride or a jog",
+      "done": false
+    },
+    {
+      "id": 29,
+      "text": "Create a vision board of your goals",
+      "done": false
+    },
+    {
+      "id": 30,
+      "text": "Research your family tree",
+      "done": false
+    },
+    {
+      "id": 31,
+      "text": "Host a game night with friends",
+      "done": false
+    },
+    {
+      "id": 32,
+      "text": "Volunteer for a local community event",
+      "done": false
+    },
+    {
+      "id": 33,
+      "text": "Take a technology-free day",
+      "done": false
+    },
+    {
+      "id": 34,
+      "text": "Paint or decorate a small item in your home",
+      "done": false
+    },
+    {
+      "id": 35,
+      "text": "Learn the basics of a musical instrument",
+      "done": false
+    },
+    {
+      "id": 36,
+      "text": "Donate items you no longer need",
+      "done": false
+    },
+    {
+      "id": 37,
+      "text": "Attend a free workshop or webinar",
+      "done": false
+    },
+    {
+      "id": 38,
+      "text": "Spend time stargazing on a clear night",
+      "done": false
+    },
+    {
+      "id": 39,
+      "text": "Write down your top 5 life goals",
+      "done": false
+    },
+    {
+      "id": 40,
+      "text": "Explore a new hiking trail",
+      "done": false
+    },
+    {
+      "id": 41,
+      "text": "Learn a simple card trick",
+      "done": false
+    },
+    {
+      "id": 42,
+      "text": "Create a scrapbook of memories",
+      "done": false
+    },
+    {
+      "id": 43,
+      "text": "Plan your next vacation",
+      "done": false
+    },
+    {
+      "id": 44,
+      "text": "Make a homemade greeting card",
+      "done": false
+    },
+    {
+      "id": 45,
+      "text": "Explore a local museum or gallery",
+      "done": false
+    },
+    {
+      "id": 46,
+      "text": "Create a photo album of a recent event",
+      "done": false
+    },
+    {
+      "id": 47,
+      "text": "Research a historical event",
+      "done": false
+    },
+    {
+      "id": 48,
+      "text": "Bake cookies and share with neighbors",
+      "done": false
+    },
+    {
+      "id": 49,
+      "text": "Write a bucket list",
+      "done": false
+    },
+    {
+      "id": 50,
+      "text": "Play a board game with family",
+      "done": false
+    },
+    {
+      "id": 51,
+      "text": "Organize your photo collection",
+      "done": false
+    },
+    {
+      "id": 52,
+      "text": "Take a day trip to the beach or a lake",
+      "done": false
+    },
+    {
+      "id": 53,
+      "text": "Watch the sunrise or sunset",
+      "done": false
+    },
+    {
+      "id": 54,
+      "text": "Make a list of books you'd like to read",
+      "done": false
+    },
+    {
+      "id": 55,
+      "text": "Learn to fold an origami figure",
+      "done": false
+    },
+    {
+      "id": 56,
+      "text": "Spend an hour sketching or doodling",
+      "done": false
+    },
+    {
+      "id": 57,
+      "text": "Research a career or hobby you're curious about",
+      "done": false
+    },
+    {
+      "id": 58,
+      "text": "Create a DIY craft project",
+      "done": false
+    },
+    {
+      "id": 59,
+      "text": "Listen to an audiobook",
+      "done": false
+    },
+    {
+      "id": 60,
+      "text": "Plan a picnic in the park",
+      "done": false
+    },
+    {
+      "id": 61,
+      "text": "Write a letter to your future self",
+      "done": false
+    },
+    {
+      "id": 62,
+      "text": "Organize your pantry or kitchen",
+      "done": false
+    },
+    {
+      "id": 63,
+      "text": "Watch an inspiring TED Talk",
+      "done": false
+    },
+    {
+      "id": 64,
+      "text": "Try a new style of workout",
+      "done": false
+    },
+    {
+      "id": 65,
+      "text": "Set up a financial savings goal",
+      "done": false
+    },
+    {
+      "id": 66,
+      "text": "Clean out your email inbox",
+      "done": false
+    },
+    {
+      "id": 67,
+      "text": "Experiment with a photography technique",
+      "done": false
+    },
+    {
+      "id": 68,
+      "text": "Write down your favorite childhood memory",
+      "done": false
+    },
+    {
+      "id": 69,
+      "text": "Learn about a new culture",
+      "done": false
+    },
+    {
+      "id": 70,
+      "text": "Create a list of positive affirmations",
+      "done": false
+    },
+    {
+      "id": 71,
+      "text": "Host a virtual hangout with friends",
+      "done": false
+    },
+    {
+      "id": 72,
+      "text": "Explore a local farmer's market",
+      "done": false
+    },
+    {
+      "id": 73,
+      "text": "Research and donate to a charity",
+      "done": false
+    },
+    {
+      "id": 74,
+      "text": "Watch a live performance online",
+      "done": false
+    },
+    {
+      "id": 75,
+      "text": "Learn a simple DIY repair skill",
+      "done": false
+    },
+    {
+      "id": 76,
+      "text": "Try your hand at digital art",
+      "done": false
+    },
+    {
+      "id": 77,
+      "text": "Read an article about a recent scientific discovery",
+      "done": false
+    },
+    {
+      "id": 78,
+      "text": "Write a letter to someone you admire",
+      "done": false
+    },
+    {
+      "id": 79,
+      "text": "Learn a new board or card game",
+      "done": false
+    },
+    {
+      "id": 80,
+      "text": "Walk a pet or volunteer at an animal shelter",
+      "done": false
+    },
+    {
+      "id": 81,
+      "text": "Practice a simple breathing exercise",
+      "done": false
+    },
+    {
+      "id": 82,
+      "text": "Build a LEGO creation",
+      "done": false
+    },
+    {
+      "id": 83,
+      "text": "Try a new type of tea or coffee",
+      "done": false
+    },
+    {
+      "id": 84,
+      "text": "Write a letter to an old friend",
+      "done": false
+    },
+    {
+      "id": 85,
+      "text": "Make a scrapbook of your last vacation",
+      "done": false
+    },
+    {
+      "id": 86,
+      "text": "Cook a meal using only ingredients you already have",
+      "done": false
+    },
+    {
+      "id": 87,
+      "text": "Take a day to practice gratitude",
+      "done": false
+    },
+    {
+      "id": 88,
+      "text": "Learn how to make your own bread",
+      "done": false
+    },
+    {
+      "id": 89,
+      "text": "Research and adopt an eco-friendly habit",
+      "done": false
+    },
+    {
+      "id": 90,
+      "text": "Try writing in calligraphy",
+      "done": false
+    },
+    {
+      "id": 91,
+      "text": "Read a biography of a famous person",
+      "done": false
+    },
+    {
+      "id": 92,
+      "text": "Set up a monthly budget",
+      "done": false
+    },
+    {
+      "id": 93,
+      "text": "Make a collage of magazine cutouts",
+      "done": false
+    },
+    {
+      "id": 94,
+      "text": "Attend a free local event or festival",
+      "done": false
+    },
+    {
+      "id": 95,
+      "text": "Write down your favorite quotes",
+      "done": false
+    },
+    {
+      "id": 96,
+      "text": "Plan a surprise for someone special",
+      "done": false
+    },
+    {
+      "id": 97,
+      "text": "Create a weekly meal plan",
+      "done": false
+    },
+    {
+      "id": 98,
+      "text": "Do a quick home workout",
+      "done": false
+    },
+    {
+      "id": 99,
+      "text": "Explore a nearby town you've never visited",
+      "done": false
+    },
+    {
+      "id": 100,
+      "text": "Write down three things you love about yourself",
       "done": false
     }
   ]
