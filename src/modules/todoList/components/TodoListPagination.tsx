@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 
-import { todoListApi } from './api'
+import { todoListApi } from '../api/api'
 
 const TodoListPagination = () => {
   const [page, setPage] = useState(1);

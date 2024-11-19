@@ -1,7 +1,7 @@
 import { useInfiniteQuery } from '@tanstack/react-query'
 
-import { todoListApi } from './api'
-import { useIntersection } from './hooks/useIntersection';
+import { todoListApi } from '../api/api'
+import { useIntersection } from '../hooks/useIntersection';
 
 const TodoListInfinite = () => {
   const {

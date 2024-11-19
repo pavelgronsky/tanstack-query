@@ -1,7 +1,7 @@
 import { infiniteQueryOptions, keepPreviousData, queryOptions } from '@tanstack/react-query';
-import { PaginatedResult, TodoDto } from './types';
+import { PaginatedResult, TodoDto } from '../types';
 
-import { jsonApiInstance } from '../../shared/api/apiInstance';
+import { jsonApiInstance } from '../../../shared/api/apiInstance';
 
 export const todoListApi = {
   baseKey: 'tasks',

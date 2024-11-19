@@ -1,7 +1,7 @@
-import useCreateTodo from './hooks/useCreateTodo';
-import useDeleteTodo from './hooks/useDeleteTodo';
-import useTodoList from './hooks/useTodoList';
-import useToggleTodo from './hooks/useToggleTodo';
+import useCreateTodo from '../hooks/useCreateTodo';
+import useDeleteTodo from '../hooks/useDeleteTodo';
+import useTodoList from '../hooks/useTodoList';
+import useToggleTodo from '../hooks/useToggleTodo';
 
 const ToDoListLogicOperations = () => {
 
