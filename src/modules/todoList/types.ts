@@ -1,7 +1,9 @@
 export type TodoDto = {
-  id: number,
+  id: string,
   text: string,
   done: boolean,
+  userId: string,
+  createdAt: string,
 }
 
 export type PaginatedResult<T> = {

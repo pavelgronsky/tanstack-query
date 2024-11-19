@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { keepPreviousData, useQuery } from '@tanstack/react-query'
+import { useQuery } from '@tanstack/react-query'
 
 import { todoListApi } from './api'
 
@@ -7,9 +7,7 @@ const TodoListPagination = () => {
   const [page, setPage] = useState(1);
 
   const { data: todoItems, error, isLoading, isPlaceholderData } = useQuery({
-    queryKey: ['tasks', 'list', { page }],
-    queryFn: (meta) => todoListApi.getTodoList({ page }, meta),
-    placeholderData: keepPreviousData,
+    ...todoListApi.getTodoListQueryOptions({ page }),
   })
 
   if (isLoading) {

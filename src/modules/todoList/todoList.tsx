@@ -1,6 +1,7 @@
 import { Tabs } from "flowbite-react";
 import TodoListPagination from './TodoListPagination';
 import TodoListInfinite from './TodoListInfinite';
+import ToDoListLogicOperations from './ToDoListLogicOperations';
 
 const TodoList = () => {
   return (
@@ -11,6 +12,9 @@ const TodoList = () => {
         </Tabs.Item>
         <Tabs.Item title="Todo list infinite Query">
           <TodoListInfinite />
+        </Tabs.Item>
+        <Tabs.Item title="Todo list add/remove item">
+          < ToDoListLogicOperations />
         </Tabs.Item>
       </Tabs>
     </div>
