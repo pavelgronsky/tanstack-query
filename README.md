@@ -13,10 +13,18 @@
 
 You can see:
 
-1. Tanstack pagination implementation (with split on pages and Next/prev buttons)
+1. Tanstack pagination implementation (with split on pages and next/prev buttons)
 2. Tanstack infinite pagination (Dynamically loading data)
+3. Tanstack example TodoList with remove/toggle/create ToDo item
+
+db.json - database
+
+## Use slow network mode. Go to Network in your browser and select Slow 4G to better understand what is done here
 
 - queryOptions and infiniteQueryOptions implementation
 - jsonApiInstance implementation
 - Pissimistic and optimistics update (remove and update data)
 - Use react-query cache
+- Use useSuspenseQuery, useMutation, useQuery,
+- Implemented ErrorBoundary
+- Use prefetchQuery

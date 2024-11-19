@@ -1,8 +1,8 @@
-import { useQuery } from '@tanstack/react-query';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { todoListApi } from '../api/api';
 
 const useTodoList = () => {
-  const { data, error, isLoading, isPlaceholderData } = useQuery({
+  const { data, error, isLoading } = useSuspenseQuery({
     ...todoListApi.getTodoList(),
   })
 
@@ -10,7 +10,6 @@ const useTodoList = () => {
     data,
     error,
     isLoading,
-    isPlaceholderData,
   }
 }
 

@@ -599,13 +599,6 @@
       "text": "Task description 100",
       "done": true,
       "createdAt": "2024-10-20T08:00:00Z"
-    },
-    {
-      "id": "GSRZPPAXoQ1LyZKTLIl3n",
-      "done": false,
-      "text": "1111",
-      "userId": "1",
-      "createdAt": "2024-11-19T20:00:29.906Z"
     }
   ]
 }

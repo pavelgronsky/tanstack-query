@@ -9,7 +9,7 @@ const ToDoListLogicOperations = () => {
   const { handleDelete, getIsPending } = useDeleteTodo();
   const { toggleTodo } = useToggleTodo()
 
-  const { data: todoItems, isLoading, error, isPlaceholderData } = useTodoList();
+  const { data: todoItems, isLoading, error } = useTodoList();
 
   if (isLoading) {
     return <div>Loading</div>
@@ -29,7 +29,7 @@ const ToDoListLogicOperations = () => {
       <button disabled={isPending} className='rounded p-2 border border-teal-500 disabled:opacity-50' >Create</button>
     </form>
 
-    <div className={`flex flex-col gap-4 ${isPlaceholderData ? ' opacity-50' : ''}`}>
+    <div className={`flex flex-col gap-4`}>
       {todoItems?.map(todo => <div className='flex justify-between border border-slate-300 rounded p-3' key={todo.id}>
         <input type='checkbox' checked={todo.done} onChange={() => toggleTodo(todo.id, todo.done)} />
         {todo.text}
