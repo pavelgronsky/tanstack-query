@@ -9,7 +9,7 @@ const useToggleTodo = () => {
     mutationFn: todoListApi.updateTodo,
     onMutate: async (newTodo) => {
       await queryClient.cancelQueries({
-        queryKey: [todoListApi.baseKey]
+        queryKey: [todoListApi.baseKey, 'list']
       })
 
       const previousTodos = queryClient.getQueryData(
@@ -36,7 +36,7 @@ const useToggleTodo = () => {
     },
     onSettled: () => {
       queryClient.invalidateQueries({
-        queryKey: [todoListApi.baseKey]
+        queryKey: [todoListApi.baseKey, 'list']
       })
     },
   })
