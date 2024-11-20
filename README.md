@@ -7,9 +7,9 @@
 1. npm install
 2. npm run dev
 
-## JSON-server http://localhost:3000/
+#### JSON-server http://localhost:3000/
 
-## Frontend http://localhost:5173/
+#### Frontend http://localhost:5173/
 
 You can see:
 
@@ -28,3 +28,4 @@ db.json - database
 - Use useSuspenseQuery, useMutation, useQuery,
 - Implemented ErrorBoundary
 - Use prefetchQuery
+- Implemented example without anti-pattern (useEffects)
