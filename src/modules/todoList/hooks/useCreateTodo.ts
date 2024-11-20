@@ -12,7 +12,7 @@ const useCreateTodo = () => {
     mutationFn: todoListApi.createTodo,
     onSettled: async () => {
       await queryClient.invalidateQueries({
-        queryKey: [todoListApi.baseKey],
+        queryKey: [todoListApi.baseKey, 'list'],
       });
     }
   })

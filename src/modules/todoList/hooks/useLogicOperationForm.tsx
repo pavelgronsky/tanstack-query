@@ -12,7 +12,7 @@ const useLogicOperationForm = () => {
       text: '',
     },
     validationSchema: Yup.object({
-      text: Yup.string().max(5, 'Must be 5 characters or less').required('Required'),
+      text: Yup.string().min(3, 'Too Short').required('Required'),
     }),
     onSubmit: (values: TFormValues, { resetForm }) => {
       handleCreate(values, resetForm)

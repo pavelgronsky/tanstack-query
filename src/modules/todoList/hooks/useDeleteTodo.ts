@@ -9,7 +9,7 @@ const useDeleteTodo = () => {
     mutationFn: todoListApi.deleteTodo,
     onSettled: async () => {
       queryClient.invalidateQueries({
-        queryKey: [todoListApi.baseKey],
+        queryKey: [todoListApi.getTodoList().queryKey],
       });
     },
     onSuccess: async (_, deletedId) => {
