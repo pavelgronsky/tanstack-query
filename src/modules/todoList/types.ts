@@ -15,3 +15,7 @@ export type PaginatedResult<T> = {
   pages: number,
   prev: number | null,
 }
+
+export type TFormValues = {
+  text: string,
+}

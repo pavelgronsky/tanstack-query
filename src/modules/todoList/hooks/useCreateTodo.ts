@@ -2,6 +2,8 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { nanoid } from 'nanoid';
 
 import { todoListApi } from '../api/api';
+import { TFormValues } from '../types';
+import { FormikState } from 'formik';
 
 const useCreateTodo = () => {
   const queryClient = useQueryClient();
@@ -15,22 +17,15 @@ const useCreateTodo = () => {
     }
   })
 
-  const handleCreate = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
-    const formData = new FormData(e.currentTarget);
-
-    const text = String(formData.get('text') ?? '');
-
+  const handleCreate = (values: TFormValues, resetForm: (nextState?: Partial<FormikState<any>>) => void) => {
     createTodoMutation.mutate({
       id: nanoid(),
       done: false,
-      text: text,
+      text: values.text,
       userId: '1',
       createdAt: new Date().toISOString(),
     })
-
-    e.currentTarget.reset();
+    resetForm();
   }
 
   return {
