@@ -17,7 +17,7 @@ const useCreateTodo = () => {
     }
   })
 
-  const handleCreate = (values: TFormValues, resetForm: (nextState?: Partial<FormikState<unknown>>) => void) => {
+  const handleCreate = (values: TFormValues, resetForm: (nextState?: Partial<FormikState<{ text: string; }>>) => void) => {
     createTodoMutation.mutate({
       id: nanoid(),
       done: false,
